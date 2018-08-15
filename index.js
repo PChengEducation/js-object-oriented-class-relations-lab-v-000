@@ -14,3 +14,12 @@ class Driver{
     return store.trips.filter(trip)
   }
 }
+
+class Passenger{
+  this.id = ++passengerId;
+  this.name = name;
+  store.passengers.push(this);
+  trips(){
+    return store.trips.filter(trip)
+  }
+}
